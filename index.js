@@ -21,7 +21,7 @@ function increment(n) {
 function decrement(n) {
   return n -= 1
 }
-
-function makeInt(string) {
-  parseInt("string", 10)
+//having trouble here. ill need to double check on my work and syntax
+function makeInt(n) {
+  return parseInt(n, 10)
 }
